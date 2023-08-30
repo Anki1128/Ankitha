@@ -28,7 +28,7 @@ public class ObjectsToMap {
         personList.add(new Person(2, "Suman"));
         personList.add(new Person(1, "Ramya"));
         personList.add(new Person(4, "Akhil"));
-        personList.add(new Person(5, "Priyatham"));
+        personList.add(new Person(5, "Priya"));
 
 
         Map<Integer, String> personMap = personList.stream().collect(Collectors.toMap(Person::getId,Person::getName,
