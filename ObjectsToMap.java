@@ -24,7 +24,7 @@ class Person {
 public class ObjectsToMap {
     public static void main(String[] args) {
         List<Person> personList = new ArrayList<>();
-        personList.add(new Person(1, "Ankitha")); 
+        personList.add(new Person(1, "Ankitha"));
         personList.add(new Person(2, "Suman"));
         personList.add(new Person(1, "Ramya"));
         personList.add(new Person(4, "Akhil"));
