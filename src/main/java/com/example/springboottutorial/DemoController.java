@@ -15,7 +15,7 @@ public class DemoController {
         customer.setFirstName(first);
         customer.setLastName(last);
         customerRepository.save(customer);
-        return "Added new customer to repo!";
+        return "Add new customer to repo!";
     }
 
     @GetMapping("/list")
