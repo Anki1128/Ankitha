@@ -1,6 +1,6 @@
 package strings;
 
-public class Children extends Parent{
+public class Child1 extends Parent{
     void display() {
         System.out.println("child overriding default");
     }
