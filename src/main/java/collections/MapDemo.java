@@ -11,7 +11,7 @@ public class MapDemo {
 
         map.put(1,"Suman");
         map.put(2,"Laxmi");
-
+        map.put(2,"Akhil");
 
         System.out.println(map.size());
 
